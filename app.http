@@ -1,0 +1,23 @@
+GET http://localhost:3000/players/
+
+###
+GET http://localhost:3000/players/10/
+
+###
+PUT http://localhost:3000/players/2/
+
+{
+  "playerName": "Raju"
+}
+
+###
+GET http://localhost:3000/matches/2/
+
+###
+GET http://localhost:3000/players/2/matches/
+
+###
+GET http://localhost:3000/matches/2/players/
+
+###
+GET http://localhost:3000/players/2/playerScores/
